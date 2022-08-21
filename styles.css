@@ -1,0 +1,150 @@
+@import url(https://fonts.googleapis.com/css?family=Montserrat:400,700|Merriweather:400,300,400italic,700|Open+Sans:300);
+
+* {
+	box-sizing: border-box;
+}
+body {
+	font-family: 'Merriweather';
+	color: rgb(0, 0, 0);
+	font-size: 16px;
+    line-height: 1.5;
+   	font-weight: 300;
+    margin: 0;
+    padding: 0;
+    background: linear-gradient(90deg, rgb(253, 238, 211) 0%, rgb(222, 253, 255) 100%);
+}
+
+/* body {
+    padding-top: 50px;
+    padding-right: 140px;
+    padding-bottom: 50px;
+    padding-left: 140px;
+  } */
+h1 {
+	font-size: 44px;
+	font-family: 'Montserrat';
+	color:rgb(80, 78, 78);
+	margin: 16px;
+	margin-bottom: 0px;
+	font-weight:800;
+	text-align: center;
+}
+
+h2 {
+	font-family: 'Montserrat';
+	color:rgb(80, 78, 78);
+	margin: 16px;
+	font-weight:800;
+	text-align: center;
+}
+
+h3 {
+	font-family: 'Montserrat';
+	color:rgb(80, 78, 78);
+	margin: 10px;
+	font-weight:800;
+	text-align: left;
+}
+
+h4 {
+	font-family: 'Montserrat';
+	color:rgb(80, 78, 78);
+	margin: 10px;
+	font-weight:800;
+	text-align: center;
+    	line-height: 1em;
+    	top: 0px;
+
+}
+span.name {
+	font-family: 'Montserrat';
+    color: #333;
+    font-weight: 700;
+    font-size: 2em;
+	text-align: center;
+}
+p {
+	margin-left: auto;
+	padding-left: 10px;
+    padding-right: 10px;
+	font-family: 'Merriweather';
+	text-align: justify;
+}
+
+/* p {
+    font-family: Times, serif, Helvetica, sans-serif;
+    line-height: 1.75em;
+    margin: 0;
+    padding: 0;
+    font-size: 1.2rem;
+} */
+
+/* body {
+    margin: 80;
+    padding: 80;
+    background: linear-gradient(90deg, rgb(253, 238, 211) 0%, rgb(222, 253, 255) 100%); */
+}
+#map {
+    width: 90%;
+    height: 600px;
+    margin: 5em auto;
+}
+#map2 {
+    width: 90%;
+    height: 600px;
+    margin: 5em auto;
+}
+
+.header {
+    max-width: 50rem;
+    font-family: 'Montserrat' ;
+}
+
+.section {
+    max-width: 50rem;
+    margin: auto;
+}
+.footer {
+    max-width: 50rem;
+    margin: 2rem auto; /* vertical margin and horizontal margin */
+    text-align: center;
+    border-top: solid 1px;
+    border-color: hsl(0, 0%, 50%);
+}
+img {
+    max-width: 50rem;
+}
+
+.footer p {
+    font-size: small;
+}
+a, a:visited {
+    text-decoration: underline;
+    text-underline-offset: 3px;
+    color: black;
+}
+a:hover {
+    color: hsla(0, 0%, 0%, 0.5);
+}
+a.no-underline {
+    text-decoration: none;
+}
+.mapboxgl-popup-content h4 {
+    font-weight: 300;
+    font-size: 0.9em;
+    border-width: 0px 0px 0.5px 0px;
+    border-style: solid;
+    border-color: rgb(80, 80, 80);
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+}
+.mapboxgl-popup-content h2 {
+    font-weight: 500;
+    margin-top: 0.5em;
+    margin-bottom: 0.3em;
+}
+.mapboxgl-popup-content p {
+    font-weight: 300;
+    margin-top: 0.3em;
+    margin-bottom: 0em;
+}
